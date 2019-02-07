@@ -1,0 +1,25 @@
+
+body{
+	border-color:yellow;
+	margin:30px;
+	padding: 40px;
+    background-image: 100%;
+    background-color: #FCFEFF;
+}
+
+.img{
+	width:auto;
+	height: 100%;
+	background-color: blue;
+}
+img{
+	width:100%;
+}
+video{
+	width: 350px;
+	height:auto;
+	background-color: pink;
+}
+
+
+}

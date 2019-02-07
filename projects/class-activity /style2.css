@@ -1,0 +1,21 @@
+body{
+	border-color:yellow;
+	margin:30px;
+	font-family:Helvetica;
+	text-indent:20px;
+
+}
+
+.img {
+	padding:40px;
+	height:auto;
+	width:400px;
+	background-color: yellow;
+
+}
+
+
+a {
+	text-decoration: none;
+	color:orange;
+}

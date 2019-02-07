@@ -1,0 +1,39 @@
+body{
+	margin: 50px;
+	background-color: pink;
+	.text-decoration: none;
+	.text-decoration-color: blue;
+	font-family: Helvetica;
+	font-size: 20px; 
+}
+
+li {
+	color: orange;
+}
+
+h1 {
+	font-family:Clarendon;
+	color:red;
+	font-size: 60px;
+}
+h2 {
+	color:orange;
+
+
+}
+p {
+	font-size: 20px;
+}
+a {
+	text-decoration: none;
+	text-anchor: none;
+	color:blue;
+
+}
+
+img {
+	width:200px;
+	height:auto;
+	margin:50px;
+
+}
