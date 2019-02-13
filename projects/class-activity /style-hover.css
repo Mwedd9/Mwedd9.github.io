@@ -1,0 +1,8 @@
+
+.imgfilters img {
+  display: block;
+  margin: 0 auto;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  padding: 60px 0 60px 0;
+}

@@ -1,0 +1,45 @@
+body{
+	margin: 30px;
+}
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.box{
+	background-color: blue;
+	width: 50vw;
+	height:20vh;
+	display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+.box1{
+	background-color: yellow;
+	width: 50vw;
+	height:40vh;
+	justify-content: flex-start;
+
+}
+
+.box2{
+	background-color: pink;
+	width: 50vw;
+	height:60vh;
+	justify-content: flex-start;
+}
+.box3{
+	background-color: orange;
+	width: 60vw;
+	height:70vh;
+	justify-content: flex-start;
+}
+.box4{
+	background-color: green;
+	width: 80vw;
+	height:90vh;
+	justify-content: flex-start;
+}

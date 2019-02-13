@@ -1,0 +1,62 @@
+body{
+	position:relative;
+	padding: 40px;
+}
+
+.box{
+	background-color: blue;
+	height:400px;
+	width: 380px;
+	position:relative;
+}
+.box1{
+	background-color: #6CFF41;
+	height:15px;
+	width: 4000px;
+	text-decoration-color: blue;
+	position:relative;
+
+}
+.box2{
+	background-color: #F8FF00;
+	height:1000px;
+	width: 300px;
+	position:relative;
+	border-radius: 10000%;
+	padding-left: 70px;
+
+
+}
+.box3{
+	background-color: #FF00D6;
+	height:700px;
+	width: 600px;
+	position:relative;
+    border-radius: 10000%;
+
+
+}
+.heart {
+  background-color: #A00000;
+  height: 400px;
+  transform: rotate(-45deg);
+  width: 30px;
+  padding: 50px;
+}
+.heart:before,
+.heart:after {
+  content: "";
+  background-color: red;
+  border-radius: 50%;
+  height: 30px;
+  position: relative;
+  width: 30px;
+}
+.heart:before {
+  top: -15px;
+  left: 0;
+
+}
+.heart:after {
+  top: -15px;
+  right:0;
