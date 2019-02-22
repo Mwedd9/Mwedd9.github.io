@@ -1,0 +1,56 @@
+body{
+	background-color:white;	
+	margin: 50px;
+}
+
+
+
+.cherry{
+	font-size: 40px;
+	color:green;
+	font-family:Helvetica;
+	text-align: wrap;
+	position: relative;
+	left: 40px
+	top: 30px;
+
+}
+
+.dalloway {
+	color:green;
+	font-family:Times New Roman;
+	text-align: wrap;
+	position: relative;
+	left: 40px
+	top: 30px;
+
+}
+.brave {
+	color:green;
+	font-family:Rockwell;
+	text-align: wrap;
+	position: relative;
+	left: 40px
+	top: 30px;
+
+}
+.enigma {
+	color:green;
+	font-family:Times New Roman;
+	text-align: wrap;
+	position: relative;
+	left: 40px
+	top: 400px;
+
+
+}
+
+.outsider {
+	color:green;
+	font-family:Gill Sans;
+	text-align: wrap;
+	position: relative;
+	left: 40px
+	top: 30px;
+
+}

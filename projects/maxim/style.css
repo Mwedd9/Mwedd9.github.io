@@ -1,0 +1,109 @@
+body{
+	background-color:black;	
+	margin: 50px;
+}
+
+div {
+	font-size: 20px;
+}
+a{
+	text-decoration: none;
+
+}
+
+a:visited{
+	color:inherit;
+
+}
+.cherry{
+	color:pink;
+	position: relative;
+	text-align: wrap;
+	left: 400px;
+	top: 30px;
+	font-family: Helvetica;
+}
+
+.cherry-end{
+	color:pink;
+	font-family: Helvetica;
+	border: 40px;
+	border-color: yellow;
+	padding:100px;
+	text-align: wrap;
+	position: relative;
+	left: 40px
+	top: 30px;
+}
+
+.dalloway{
+	color:green;
+	font-family:Times New Roman;
+	text-align: wrap;
+	position: relative;
+	left: 40px
+	top: 30px;
+
+}
+.dalloway-end{
+	color:green;
+	position: relative;
+    left: 47px;
+}
+
+.outsider{
+	color:orange;
+	position: relative;
+	left: 40px
+	top: 30px;
+	font-family: Gill Sans;
+}
+.outsider-end{
+	color:orange;
+	position: relative;
+	left: 40px
+	top: 30px;
+	font-family: Gill Sans;
+}
+}
+.enigma{
+	color:blue;
+	position: relative;
+	left: 40px
+	top: 30px;
+}
+.enigma-end{
+	color:blue;
+	position: relative;
+	left: 40px
+	top: 30px;
+}
+
+.brave{
+	color:white;
+	font-family: Rockwell;
+	position: relative;
+	left: 40px
+	top: 30px;
+
+}
+.brave-end{
+	color:white;
+	font-family: Rockwell;
+	position: relative;
+	left: 40px
+	top: 30px;
+}
+
+.button{
+	font-size: 200px;
+	color: grey;
+}
+
+
+
+
+
+
+
+
