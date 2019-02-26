@@ -4,7 +4,8 @@ body{
 }
 
 div {
-	font-size: 20px;
+	font-size: 65px;
+	color:white;
 }
 a{
 	text-decoration: none;
@@ -14,20 +15,22 @@ a{
 a:visited{
 	color:inherit;
 
+
 }
 .cherry{
-	color:pink;
+	color:white;
 	position: relative;
 	text-align: wrap;
-	left: 400px;
+	left: 303px;
 	top: 30px;
 	font-family: Helvetica;
+	
 }
 
 .cherry-end{
-	color:pink;
+	color:white;
 	font-family: Helvetica;
-	border: 40px;
+	border: 400px;
 	border-color: yellow;
 	padding:100px;
 	text-align: wrap;
@@ -37,46 +40,56 @@ a:visited{
 }
 
 .dalloway{
-	color:green;
-	font-family:Times New Roman;
+	color:white;
+	font-family: 'Old Standard TT', serif;
+	font-size: 100px;
 	text-align: wrap;
 	position: relative;
-	left: 40px
-	top: 30px;
+	left: 350px;
+	top: -81px;
 
 }
 .dalloway-end{
-	color:green;
+	color:white;
+	font-family: 'Old Standard TT', serif;
+	font-size: 30px;
 	position: relative;
     left: 47px;
+    padding:300px;
 }
 
 .outsider{
-	color:orange;
+	color:white;
 	position: relative;
-	left: 40px
-	top: 30px;
-	font-family: Gill Sans;
+	left: 150px;
+    top: -30px;
+	font-family: Gill Sans, sans-serif;
+	padding:300px;
 }
 .outsider-end{
-	color:orange;
+	color:white;
 	position: relative;
-	left: 40px
-	top: 30px;
-	font-family: Gill Sans;
+	left: 149px;
+    top: -30px;
+    font-family: Gill Sans, sans-serif;
+
 }
-}
+
 .enigma{
-	color:blue;
+	color: white;
+	font-family: 'Cormorant Garamond', serif;
 	position: relative;
 	left: 40px
 	top: 30px;
+	padding: 90px;
 }
+
 .enigma-end{
-	color:blue;
+	color:white;
+	font-family: 'Cormorant Garamond', serif;
 	position: relative;
-	left: 40px
-	top: 30px;
+	top: 500px;   
+	left: 124px;
 }
 
 .brave{
@@ -90,16 +103,21 @@ a:visited{
 .brave-end{
 	color:white;
 	font-family: Rockwell;
+	font-size: 30px;
 	position: relative;
 	left: 40px
-	top: 30px;
+	top: 300px;
+	padding: 90px;
+
 }
 
 .button{
 	font-size: 200px;
 	color: grey;
+	position: relative;
+    top: 600px;
+   
 }
-
 
 
 

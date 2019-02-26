@@ -1,0 +1,17 @@
+body{
+	background-color:pink;	
+	margin: 50px;
+}
+
+h1{
+	font-size: 70px;
+	font-family: Helvetica;
+}
+
+.intro {
+	font-size: 40px;
+	font-family: Helvetica;
+	position: relative;
+	left: 50px;
+
+}
