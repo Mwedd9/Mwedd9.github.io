@@ -1,13 +1,14 @@
 body{
 	background-color:white;	
 	margin: 50px;
+	line-height: 100px;
+	color:black;
 }
 
 
 
 .cherry{
-	font-size: 40px;
-	color:green;
+	font-size: 80px;
 	font-family:Helvetica;
 	text-align: wrap;
 	position: relative;
@@ -17,8 +18,8 @@ body{
 }
 
 .dalloway {
-	color:green;
-	font-family:Times New Roman;
+	font-size: 80px;
+	font-family: 'Old Standard TT', serif;
 	text-align: wrap;
 	position: relative;
 	left: 40px
@@ -26,7 +27,7 @@ body{
 
 }
 .brave {
-	color:green;
+	font-size: 80px;
 	font-family:Rockwell;
 	text-align: wrap;
 	position: relative;
@@ -35,8 +36,8 @@ body{
 
 }
 .enigma {
-	color:green;
-	font-family:Times New Roman;
+	font-size: 80px;
+	font-family: 'Cormorant Garamond', serif;
 	text-align: wrap;
 	position: relative;
 	left: 40px
@@ -46,7 +47,7 @@ body{
 }
 
 .outsider {
-	color:green;
+	font-size: 80px;
 	font-family:Gill Sans;
 	text-align: wrap;
 	position: relative;
