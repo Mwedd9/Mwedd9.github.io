@@ -1,0 +1,32 @@
+
+body{
+	background-color: yellow;
+}
+@keyframes spinType {
+  0% {
+    transform: rotate(0.5turn);
+  }
+  60% {
+    transform: rotate(0.7turn);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes yinyangSpin {
+  0% {
+    transform: rotate(0turn);
+  }
+ 
+  100% {
+    transform: rotate(1turn);
+  }
+ }
+
+
+#yinyang{
+	height: 500px;
+	animation: yinyangSpin 5s ease-in-out infinite;
+}
+
