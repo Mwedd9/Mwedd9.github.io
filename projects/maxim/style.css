@@ -3,6 +3,9 @@ body{
 	margin: 50px;
 }
 
+::-moz-selection { background: #FEDE6E; }
+::selection { background: #FEDE6E; }
+
 div {
 	font-size: 65px;
 	color:white;

@@ -4,9 +4,10 @@ body{
 	line-height: 100px;
 	color:black;
 
-::-moz-selection { background: yellow; }
-::selection { background: yellow; }
 }
+
+::-moz-selection { background: #FEDE6E; }
+::selection { background: #FEDE6E; }
 
 
 
