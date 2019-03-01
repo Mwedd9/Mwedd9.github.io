@@ -3,6 +3,9 @@ body{
 	margin: 50px;
 	line-height: 100px;
 	color:black;
+
+::-moz-selection { background: yellow; }
+::selection { background: yellow; }
 }
 
 
