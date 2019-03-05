@@ -1,0 +1,182 @@
+body{
+	background-color: #FEF297;
+	z-index: -2;
+
+}
+
+.car{
+	size:10%;
+	position: relative;
+	top: 700px;
+	padding: 600px;
+	z-index: -1;
+	width: 30%;
+	height: auto;
+}
+
+.house{
+    position: relative;
+    left: 40px;
+    top: 20px;
+
+}
+
+.forest{
+	width: auto;
+    height: 600px;
+	position: relative;
+    left: 40px;
+    top: 20px;
+
+}
+
+.door{
+	width: auto;
+    height: 600px;
+	position: relative;
+    left: 40px;
+    top: -1000px;
+}
+
+
+.hshape{
+  width: 100px;
+  height: 600px;
+  background: #9bb8ff;
+  position: absolute;
+  border-radius: 0px;
+  top: 200px;
+  left: 420px;
+
+}
+.h-shape{
+  width: 100px;
+  height: 50px;
+  background: pink;
+  position: absolute;
+  border-radius: 40px;
+  top: 20px;
+  left: 400px;
+
+}
+
+.cshape{
+   width: 40px;
+   height: 40px;
+   border-radius: 1000px;
+   background: green;
+   position: absolute;
+   top: 2300px;
+   left: 500px;
+
+}
+.c-shape{
+	width: 1000px;
+    height: 1000px;
+   background: white;
+   position: absolute;
+   top: 400px;
+   left: 600px;
+
+
+}
+
+.dshape{
+   width: 1000px;
+   height: 100px;
+   background: red;
+   position: absolute;
+   top: 900px;
+   left: 100px;
+
+}
+
+.fshape{
+   width: 90px;
+   height: 100px;
+   background: green;
+   position: absolute;
+   top: 2000px;
+   left: 600px;
+
+}
+
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  
+  border-bottom: 100px green;
+  /*position: absolute;*/
+   top: 2000px;
+   left: 600px;
+
+
+}
+
+
+
+@keyframes cshapeSpin {
+  0% {
+    transform: rotate(0turn);
+  }
+ 
+  100% {
+    transform: rotate(1turn);
+  }
+ }
+
+
+#cshape{
+	height: 50px;
+	animation: cshapeSpin 5s ease-in-out infinite 2s;
+}
+
+#cshape:hover {
+	animation-play-state: paused;
+	cursor: pointer;
+}
+
+@keyframes c-shapeSpin {
+  0% {
+    transform: rotate(0turn);
+  }
+ 
+  100% {
+    transform: rotate(2turn);
+  }
+ }
+
+
+#c-shape{
+	height: 50px;
+	animation: c-shapeSpin 5s ease-in-out infinite 2s;
+}
+
+#c-shape:hover {
+	animation-play-state: paused;
+	cursor: pointer;
+}
+
+
+@keyframes doorSlide {
+  0% {
+    transform: rotate(0turn);
+  }
+ 
+  100% {
+    transform: rotate(2turn);
+  }
+ }
+
+
+#door{
+	height: 500px;
+	animation: doorSlide 5s ease-in-out infinite 2s;
+}
+
+#door:hover {
+	animation-play-state: paused;
+	cursor: pointer;
+}
