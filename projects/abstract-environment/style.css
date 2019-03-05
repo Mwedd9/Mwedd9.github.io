@@ -159,23 +159,19 @@ body{
 }
 
 
-@keyframes doorSlide {
-  0% {
-    transform: rotate(0turn);
-  }
- 
-  100% {
-    transform: rotate(.5turn);
-  }
- }
 
 
-#door{
-	height: 500px;
-	animation: doorSlide 5s 
+div {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
 }
 
-#door:hover {
-	animation-play-state: paused;
-	cursor: pointer;
+@keyframes example {
+  0%   {background-color: red; left:0px;}
+  50%  {background-color: #FFEA88; left:200px;}
+  100% {background-color: red; left:0px;}
 }
