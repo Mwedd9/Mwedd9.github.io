@@ -64,7 +64,7 @@ body{
    width: 40px;
    height: 40px;
    border-radius: 1000px;
-   background: green;
+   background: #56AC00;
    position: absolute;
    top: 2300px;
    left: 500px;
@@ -83,10 +83,10 @@ body{
 
 .dshape{
    width: 1000px;
-   height: 100px;
-   background: red;
+   height: 20px;
+   background: #F54E14;
    position: absolute;
-   top: 900px;
+   top: 1200px;
    left: 100px;
 
 }
@@ -94,10 +94,11 @@ body{
 .fshape{
    width: 90px;
    height: 100px;
-   background: green;
+   background: #2C5800;
    position: absolute;
-   top: 2000px;
+   top: 3000px;
    left: 600px;
+  
 
 }
 
@@ -108,9 +109,7 @@ body{
   border-right: 100px solid transparent;
   
   border-bottom: 100px green;
-  /*position: absolute;*/
-   top: 2000px;
-   left: 600px;
+ 
 
 
 }
@@ -166,14 +165,14 @@ body{
   }
  
   100% {
-    transform: rotate(2turn);
+    transform: rotate(.5turn);
   }
  }
 
 
 #door{
 	height: 500px;
-	animation: doorSlide 5s ease-in-out infinite 2s;
+	animation: doorSlide 5s 
 }
 
 #door:hover {
