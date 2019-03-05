@@ -175,3 +175,17 @@ div {
   50%  {background-color: #FFEA88; left:200px;}
   100% {background-color: red; left:0px;}
 }
+
+#door {
+  width: auto;
+  height: 600px;
+  position: relative;
+  animation-name: doorSlide;
+  animation-duration: 5s;
+}
+
+@keyframes doorSlide {
+  0%   { left:0px;}
+  50%  { left:200px;}
+  100% { left:0px;}
+}
