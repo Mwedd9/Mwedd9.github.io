@@ -1,1 +1,20 @@
 /* Your styles go here */
+body{
+	cursor: pointer;
+
+}
+
+.p{
+	font-family: serif;
+	text
+}
+
+.bird{
+	padding:40px;
+	position:relative;
+}
+
+#bird{
+	padding:40px;
+	position:relative;
+}
