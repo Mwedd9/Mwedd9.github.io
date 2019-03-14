@@ -4,6 +4,6 @@ $(function() {
   $("#bird").animate({
   left: "40%"  
 
- });
+	 });
  });
 
