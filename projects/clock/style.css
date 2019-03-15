@@ -1,0 +1,10 @@
+body{
+	background-color: pink;
+}
+
+.clock-part {
+  height: 50px;
+  width: 4px;
+  background: black;
+  margin-left: 40px;
+}
