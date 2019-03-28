@@ -3,8 +3,25 @@ body{
 }
 
 .clock-part {
-  height: 50px;
-  width: 4px;
-  background: black;
-  margin-left: 40px;
+  height: 200px;
+  width: 150px;
+  background: yellow;
+  margin-left: 200px;
+  position:absolute;
+  transform: skew(5deg);
+
+
+
+
+}
+
+
+#minute{
+	background-color: blue;
+
+	
+}
+
+#second{
+	background-color: orange;
 }
