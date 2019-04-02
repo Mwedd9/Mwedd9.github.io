@@ -1,0 +1,80 @@
+body{
+	margin: 30px;
+	font-size: 3vh;
+	padding:2vw;
+	padding-right: 40vw;
+	/*border: 2px solid grey;*/
+
+
+}
+
+.answers{
+	border: 2px solid grey;
+	padding: 2vw;
+
+}
+
+.eliza{
+	color:red;
+	padding-bottom:3vw;
+}
+
+.raph{
+	
+	color:blue;
+	padding-bottom:3vw;
+
+
+}
+
+.dillon{
+	color:yellow;
+	padding-bottom:3vw;
+
+}
+
+.julia{
+	color:green;
+	padding-bottom:3vw;
+
+}
+
+.amber{
+	color:red;
+	padding-bottom:3vw;
+
+}
+
+.chris{
+	color: blue
+	padding-bottom:3vw;
+
+}
+
+.grace{
+	color:yellow;
+	padding-bottom:3vw;
+
+}
+
+.ro{
+	color:green;
+	padding-bottom:3vw;
+}
+
+.lee{
+	color:red;
+	padding-bottom:3vw;
+
+}
+
+.lind{
+	color:blue;
+	padding-bottom:3vw;
+
+}
+.gavin{
+	color:yellow;
+	padding-bottom:3vw;
+
+}

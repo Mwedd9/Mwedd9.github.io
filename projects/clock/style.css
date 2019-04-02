@@ -1,27 +1,43 @@
 body{
-	background-color: pink;
+	background-color: #E9E8E2;
 }
 
 .clock-part {
   height: 200px;
   width: 150px;
-  background: yellow;
   margin-left: 200px;
+  margin-top: 200px;
   position:absolute;
-  transform: skew(5deg);
-
+  /*transform: skew(5deg);*/
 
 
 
 }
 
-
+#hour{
+	background-color: #FED100;
+}
 #minute{
-	background-color: blue;
+	background-color: #FEE366;
 
 	
 }
 
 #second{
-	background-color: orange;
+	background-color: #FFF0A8;
+}
+
+#second {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 10s;
+}
+
+@keyframes example {
+  0%   {left:0px;}
+  50%  { left:200px;}
+  100% { left:300px;}
 }
