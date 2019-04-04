@@ -5,6 +5,7 @@ body{
 	padding-right: 40vw;
 	/*border: 2px solid grey;*/
 	cursor: pointer;
+	font-family: helvetica;
 
 
 }
@@ -205,15 +206,45 @@ body{
 	padding-bottom:3vw;
 }
 
-.fur{
+.max{
 	color:yellow;
 	padding-bottom:3vw;
 }
 
-.salma{
+.fur{
 	color:green;
 	padding-bottom:3vw;
 }  
+
+.salma{
+	color:red;
+	padding-bottom:3vw;
+}
+
+.lilli{
+	color:blue;
+	padding-bottom:3vw;
+}
+
+.sam{
+	color:yellow;
+	padding-bottom:3vw;
+}
+
+.seth{
+	color:green;
+	padding-bottom:3vw;
+}  
+
+.kindra{
+	color:red;
+	padding-bottom:3vw;
+}
+
+.will{
+	color:blue;
+	padding-bottom:3vw;
+}
 
 
 
