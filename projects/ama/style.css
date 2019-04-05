@@ -1,18 +1,56 @@
 body{
-	margin: 30px;
-	font-size: 3vh;
+	/*margin: 30px;*/
+	font-size:3vh;
 	padding:2vw;
-	padding-right: 40vw;
-	/*border: 2px solid grey;*/
+	/*padding-right: 40vw;*/
 	cursor: pointer;
 	font-family: helvetica;
+	background-color: black;
 
+} 
+
+/*.drawings{
+    padding-left: 710px;
+    width: 100px;
+    height: auto;
+    display: block;
+    margin-top: -6200px;
+
+}*/
+
+.drawings object{
+    padding-left: 710px;
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-top: -100px;
 
 }
 
+
+/*
+object:hover {
+outline: 4px solid red;
+}*/
+
+/*
+.GpaDrawing {
+	margin-top: -500px;
+}*/
+
+/*
+.elizaDrawing {
+	        display:none;
+}
+
+
+*/
 .answers{
 	border: 2px solid grey;
 	padding: 2vw;
+	width: 50%;
+	height: auto;
+    position: absolute;
 }
 
 .eliza{
@@ -20,10 +58,12 @@ body{
 	padding-bottom:3vw;
 }
 
+
 .grandpa{
 	color:blue;
 	padding-bottom:3vw;
 }
+
 
 .raph{
 	color:yellow;
@@ -248,5 +288,4 @@ body{
 
 
 
-
-
+\

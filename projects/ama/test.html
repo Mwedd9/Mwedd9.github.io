@@ -1,54 +1,35 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>flow</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="icon" type="image/jpg" href="heart.jpg">
+	<meta charset="utf-8">
+	<title>toggle demo</title>
 
-	<script type="text/javascript" src="./jquery-3.3.1.min.js"></script>
+	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+	<script src="./jquery-3.3.1.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="style.css">
+  	<link rel="icon" type="image/jpg" href="heart.jpg">
 </head>
-
-
 <body>
 
 
+	<div id="answers" class="answers">
 
-	<div class="drawings" id="drawings">
-		<!-- <a href="/" class="chrisDrawing"></a> -->
-		<div class="elizaDrawing">
-			<object type="image/svg+xml" data="./svgs/eliza.svg"></object>
+		<div class="eliza">
+			Unsteady. I keep moving around and my emotions change often. nothing feels very consistent. I don't think this is either good or bad. but definitely unsteady. trying a lot of things out, like guess and check. I feel like I'm under construction.
 		</div>
 
 
-<!-- <object class="GpaDrawing" type="image/svg+xml" data="./svgs/Gpa.svg"></object>
+
+		<div id="grandpa" class="grandpa">
+			As an older person-age 85-I feel reasonably “steady”. I am healthy, can afford my life, have a great marriage and remain active with various projects, both personal and volunteer. My wife and I are blessed with 10 grandchildren and 2 great grandchildren. I feel lucky not to be a millenial!
+
+		</div>
 
 
-<object class="chrisDrawing" type="image/svg+xml" data="./svgs/chris.svg"></object>
--->
-
-</div>
 
 
-<div id="answers" class="answers">
-
-	<div class="eliza">
-		Unsteady. I keep moving around and my emotions change often. nothing feels very consistent. I don't think this is either good or bad. but definitely unsteady. trying a lot of things out, like guess and check. I feel like I'm under construction.
-	</div>
-
-
-	<div id="grandpa" class="grandpa">
-		As an older person-age 85-I feel reasonably “steady”. I am healthy, can afford my life, have a great marriage and remain active with various projects, both personal and volunteer. My wife and I are blessed with 10 grandchildren and 2 great grandchildren. I feel lucky not to be a millenial!
-
-	</div>
-
-
-	<div id="raph" class="raph">
-		Steady. I feel like I have a plan I’m just always asking myself if I’m happy. Like with who I am not with what I’m doing, if that makes sense.
-	</div>
-
-	<div id="chris" class="chris">
-		Unsteady, my emotions and thus thoughts are highly flexible in relation to how comfortable I am in different situations
-	</div>
+		<div id="chris" class="chris">
+			Unsteady, my emotions and thus thoughts are highly flexible in relation to how comfortable I am in different situations
+		</div>
 
 
 	<div id="mom" class="mom">
@@ -117,7 +98,7 @@
 	<div id="david" class="david">
 		Unsteady because of a lack of concrete career opportunities and a sense of loss direction.
 	</div>
-
+	
 	<div id="get" class="get">
 		Unsteady, currently I am an undergraduate student with a half time job, debt is piling up, I have many health concerns that I can't address due to lack of health insurance, and I can't build a savings for myself because of petty expenses that must be paid.
 	</div>
@@ -221,10 +202,101 @@
 	<div id="will" class="will">
 		i feel steady because i’m finally self sufficient! It’s hard but it feels good to know I’m capable of taking care of me in all the ways.
 	</div>
+
 </div>
 
-</body>	 
-<script type="text/javascript" src="./main.js"></script>
 
 
-</html>
+	<div class="drawings" id="drawings">
+		<!-- <a href="/" class="chrisDrawing"></a> -->
+		<!-- <div id="drawings" class="elizaDrawing"> -->
+
+		<object class="elizaDrawing" type="image/svg+xml" data="./svgs/eliza.svg"></object>
+
+		<object class="GpaDrawing" type="image/svg+xml" data="./svgs/Gpa.svg"></object>
+
+
+		<object class="chrisDrawing" type="image/png" data="./svgs/Chris.png"></object>
+
+		<object class="momDrawing" type="image/png" data="./svgs/Mom.png"></object>
+
+
+
+		<object class="joshDrawing" type="image/png" data="./svgs/Josh.png"></object>
+
+		<object class="amberDrawing" type="image/png" data="./svgs/Amber.png"></object>
+
+		<object class="dillonDrawing" type="image/png" data="./svgs/Dillon.png"></object>
+
+		<object class="juliaDrawing" type="image/png" data="./svgs/Julia.png"></object>
+
+		<object class="lucyDrawing" type="image/png" data="./svgs/Lucy.png"></object>
+
+		<object class="sabDrawing" type="image/png" data="./svgs/Sab.png"></object>
+
+		<object class="graceDrawing" type="image/png" data="./svgs/Grace.png"></object>
+
+		<object class="elDrawing" type="image/png" data="./svgs/El.png"></object>
+
+		<object class="roDrawing" type="image/png" data="./svgs/Ro.png"></object>
+
+		<object class="leeDrawing" type="image/png" data="./svgs/Lee.png"></object>
+
+		<object class="lindDrawing" type="image/png" data="./svgs/Lind.png"></object>
+
+		<object class="gavinDrawing" type="image/png" data="./svgs/Gavin.png"></object>
+
+		<object class="luDrawing" type="image/png" data="./svgs/Lu.png"></object>
+
+
+	</div>
+
+		<script>
+			$( ".eliza" ).click(function() {
+				$( ".elizaDrawing" ).toggle();   
+				$(".elizaDrawing").css("visibility: hidden;");
+			});
+
+
+
+			$( ".grandpa" ).click(function() {
+				$( ".GpaDrawing" ).toggle();
+				$(".GpaDrawing").css("visibility: hidden;");
+			});
+
+
+			$( ".chris" ).click(function() {
+				$( ".chrisDrawing" ).toggle();
+				$(".chrisDrawing").css("visibility: hidden;");
+			});
+
+
+			$( ".mom" ).click(function() {
+				$( ".momDrawing" ).toggle();
+				$(".momDrawing").css("visibility: hidden;");
+			});
+
+
+
+
+			$( ".josh" ).click(function() {
+				$( ".joshDrawing" ).toggle();
+				$(".joshDrawing").css("visibility: hidden;");
+			});
+
+
+			$( ".amber" ).click(function() {
+				$( ".amberDrawing" ).toggle();
+				$(".amberDrawing").css("visibility: hidden;");
+			});
+
+
+			$( ".dillon" ).click(function() {
+				$( ".dillonDrawing" ).toggle();
+				$(".dillonDrawing").css("visibility: hidden;");
+			});
+		 });
+		</script>
+
+	</body>
+	</html>
