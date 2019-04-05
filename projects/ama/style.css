@@ -6,8 +6,20 @@ body{
 	cursor: pointer;
 	font-family: helvetica;
 	background-color: black;
+	font-weight: bold;
 
 } 
+
+.h1{
+	font-family: serif;
+	display: block;
+    font-size: 4em;
+    color: white;
+    top: 40px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
 
 /*.drawings{
     padding-left: 710px;
@@ -20,11 +32,11 @@ body{
 
 .drawings object{
     padding-left: 710px;
-    width: 500px;
+    padding-top: 60px;
+    width: 700px;
     height: auto;
     display: block;
-    margin-top: -100px;
-
+    margin-top: -50px;
 }
 
 
@@ -48,237 +60,239 @@ outline: 4px solid red;
 .answers{
 	border: 2px solid grey;
 	padding: 2vw;
-	width: 30%;
+	width: 50%;
 	height: auto;
     position: absolute;
 }
 
 .eliza{
-	color:red;
-	padding-bottom:3vw;
+	color: #e20404;
+    padding-bottom: 28vw;
+    padding-top: 13vw;
 }
 
 
 .grandpa{
 	color:blue;
-	padding-bottom:3vw;
+	padding-bottom: 31vw;
 }
 
 
 .raph{
 	color:#E7C30E;
-	padding-bottom:3vw;
+    padding-bottom: 27vw;
 }
 
 .chris{
 	color:green;
-	padding-bottom:3vw;
+	padding-bottom:30vw;
 }
 
 .mom{
-	color:red;
-	padding-bottom:3vw;
+	color: #e20404;
+	padding-bottom:30vw;
 }
 
 .josh{
 	color:blue;
-	padding-bottom:3vw;
+	padding-bottom:30vw;
 }
 
 .amber{
 	color:#E7C30E;
-	padding-bottom:3vw;
+	padding-bottom:30vw;
 }
 
 .dillon{
 	color:green;
-	padding-bottom:3vw;
+	padding-bottom:26vw;
 }
 
 
 .julia{
-	color:red;
-	padding-bottom:3vw;
+	color: #e20404;
+	padding-bottom:34vw;
 }
 
 .lucy{
 	color:blue;
-	padding-bottom:3vw;
+	padding-bottom:30vw;
 }
 
 .sab{
 	color:#E7C30E;
-	padding-bottom:3vw;
+	padding-bottom:30vw;
 }
 
 .grace{
 	color:green;
-	padding-bottom:3vw;
+	padding-bottom: 32vw;
+
 }
 
 .el{
-	color:red;
-	padding-bottom:3vw;
+	color: #e20404;
+	padding-bottom:27vw;
 }
 
 .ro{
 	color:blue;
-	padding-bottom:3vw;
+	padding-bottom:25vw;
 }
 
 .lee{
 	color:#E7C30E;
-	padding-bottom:3vw;
+	padding-bottom:25vw;
 }
 
 .lind{
 	color:green;
-	padding-bottom:3vw;
+	padding-bottom:25vw;
 }  
 
 .gavin{
-	color:red;
-	padding-bottom:3vw;
+	color: #e20404;
+	padding-bottom:42vw;
 }
 
 .lu{
 	color:blue;
-	padding-bottom:3vw;
+	padding-bottom:25vw;
 }
 
 .pj{
 	color:#E7C30E;
-	padding-bottom:3vw;
+	padding-bottom:36vw;
 }
 
 .jack{
 	color:green;
-	padding-bottom:3vw;
+	padding-bottom:30vw;
 } 
 
 .david{
-	color:red;
-	padding-bottom:3vw;
+	color: #e20404;
+	padding-bottom:25vw;
 }
 
 .get{
 	color:blue;
-	padding-bottom:3vw;
+	padding-bottom:37vw;
 }
 
 .peter{
 	color:#E7C30E;
-	padding-bottom:3vw;
+	padding-bottom:25vw;
 }
 
 .melissa{
 	color:green;
-	padding-bottom:3vw;
+	padding-bottom:25vw;
 } 
 
 .dj{
-	color:red;
-	padding-bottom:3vw;
+	color: #e20404;
+	padding-bottom:25vw;
 }
 
 .soph{
 	color:blue;
-	padding-bottom:3vw;
+	padding-bottom:25vw;
 }
 
 .wargo{
 	color:#E7C30E;
-	padding-bottom:3vw;
+	padding-bottom:31vw;
 }
 
 .owl{
 	color:green;
-	padding-bottom:3vw;
+	padding-bottom:32vw;
 }  
 
 .farrah{
-	color:red;
-	padding-bottom:3vw;
+	color: #e20404;
+	padding-bottom:25vw;
 }
 
 .sierra{
 	color:blue;
-	padding-bottom:3vw;
+	padding-bottom:30vw;
 }
 
 .nick{
 	color:#E7C30E;
-	padding-bottom:3vw;
+	padding-bottom:30vw;
 }
 
 .ash{
 	color:green;
-	padding-bottom:3vw;
+	padding-bottom:27vw;
 } 
 
 .minna{
-	color:red;
-	padding-bottom:3vw;
+	color: #e20404;
+	padding-bottom:35vw;
 }
 
 .sim{
 	color:blue;
-	padding-bottom:3vw;
+	padding-bottom:20vw;
 }
 
 .lily{
 	color:#E7C30E;
-	padding-bottom:3vw;
+	padding-bottom:36vw;
 }
 
 .pat{
 	color:green;
-	padding-bottom:3vw;
+	padding-bottom:30vw;
 }  
 
 .mad{
-	color:red;
-	padding-bottom:3vw;
+	color: #e20404;
+	padding-bottom:30vw;
 }
 
 .miles{
 	color:blue;
-	padding-bottom:3vw;
+	padding-bottom:38vw;
 }
 
 .max{
 	color:#E7C30E;
-	padding-bottom:3vw;
+	padding-bottom:25vw;
 }
 
 .fur{
 	color:green;
-	padding-bottom:3vw;
+	padding-bottom:16vw;
 }  
 
 .salma{
-	color:red;
-	padding-bottom:3vw;
+	color: #e20404;
+	padding-bottom:20vw;
 }
 
 .lilli{
 	color:blue;
-	padding-bottom:3vw;
+	padding-bottom:12vw;
 }
 
 .sam{
 	color:#E7C30E;
-	padding-bottom:3vw;
+	padding-bottom:27vw;
 }
 
 .seth{
 	color:green;
-	padding-bottom:3vw;
+	padding-bottom:40vw;
 }  
 
 .kindra{
-	color:red;
-	padding-bottom:3vw;
+	color: #e20404;
+	padding-bottom:20vw;
 }
 
 .will{
@@ -288,4 +302,3 @@ outline: 4px solid red;
 
 
 
-\
