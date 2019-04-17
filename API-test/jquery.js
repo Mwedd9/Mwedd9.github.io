@@ -14,8 +14,9 @@ $(function() {
 
 
     var image1 = document.getElementById('clear');
+    var image2 = document.getElementById('rain');
 
-    $('#theDiv').prepend('<img id="theImg" src="clear.jpg" />')
+    // $('#theDiv').prepend('<img id="theImg" src="clear.jpg" />')
 
 
 
@@ -43,10 +44,10 @@ $(function() {
    //    document.body.style.backgroundColor = "blue";
    //  }
 
-   var url = 'http://api.openweathermap.org/data/2.5/weather?q=New+York&units=imperial&appid=be50dd36b67269580c4577af42f2870e';
-$.get(url, function(results) {
+//    var url = 'http://api.openweathermap.org/data/2.5/weather?q=New+York&units=imperial&appid=be50dd36b67269580c4577af42f2870e';
+// $.get(url, function(results) {
   // The get request fires a callback function when the API request finishes
-  console.log(results);
+//   console.log(results);
   // The data object contains all the information returned in the API
   var weather = results.weather[0];
   var weathertext = results.weather[0].main;
@@ -71,9 +72,8 @@ for(var counter=0; counter< 1; counter++){
           $('body').append(image3);
 
         }
-};
 
-})
+
 
   
 
