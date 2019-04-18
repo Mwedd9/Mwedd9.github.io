@@ -1,5 +1,5 @@
 $(function() {
-	$.get('https://hoant626.github.io/api.json', function(data) {
+	$.get('https://Mwedd9.github.io/api.json', function(data) {
 		console.log(data);
 		var adjective1 = data.adjective1;
 
