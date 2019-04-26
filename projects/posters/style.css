@@ -29,11 +29,11 @@ h2{
 
 }
 .a {
-      font-size: 100px;
+      font-size: 20vw;
       color:white;
       position: relative;
-      left: 1vw;
-      top: 1vw;
+      left: 40vw;
+      bottom: 3.5vw;
  }
 
  @-webkit-keyframes argh-my-eyes {
