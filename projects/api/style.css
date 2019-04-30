@@ -5,9 +5,11 @@ body {
 }
 
 .face{
-	width: ;
-	height: ;
+	width: auto;
+	height: 20vw ;
 	align-content: center;
+	position: relative;
+	left:40vw;
 
 	
 
@@ -19,6 +21,9 @@ body {
   	color: black;
   	margin: 400px;
   	font-family: serif;
+  	line-height: ;
+  	font-weight: ;
+  	background-color: yellow;
 
 
   }
