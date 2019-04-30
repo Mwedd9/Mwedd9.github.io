@@ -10,7 +10,11 @@ $(function() {
 
 		console.log(advice);
 
-		$('.advice').html(data.slip.slip_id);
+		// $('.advice').html(data.slip.slip_id);
+
+		
+		$('.advice').html(data.slip.advice);
+
 	
 	
 	}).fail(function() {
@@ -27,7 +31,6 @@ $(function() {
 
 			$('.advice').html(data.slip.advice);
 		
-
 		
 		}).fail(function() {
 			console.log ('Error in Get.')
