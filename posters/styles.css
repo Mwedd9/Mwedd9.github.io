@@ -16,8 +16,7 @@ body{
   text-align: center;
   /*font-family: 'BioRhyme Expanded', serif;*/
   font-family: 'EB Garamond', serif;
-  color: white;
-
+  color: #FFD800; 
 }
 
 .text{
@@ -48,9 +47,8 @@ h2{
   /*font-family: 'Merriweather', serif;*/
 /*font-family: 'BioRhyme Expanded', serif;*/
   font-family: 'EB Garamond', serif;
-
   font-size: 3vw;
-  color: white;
+  color: #FFD800;
 }
 
 }
