@@ -33,8 +33,43 @@ h2{
       color:white;
       position: relative;
       left: 40vw;
-      bottom: 3.5vw;
+      bottom:3vw;
  }
+
+ a{
+      position: relative;
+      left: .1vw;
+      bottom:9vw;
+
+ }
+
+ i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
 
  @-webkit-keyframes argh-my-eyes {
     0%   { background-color: #fff; }
@@ -62,3 +97,5 @@ h2{
   -moz-animation:    argh-my-eyes 2s infinite;
   animation:         argh-my-eyes 2s infinite;
 }
+
+
