@@ -8,8 +8,6 @@ body {
 	height: auto;
 	position: relative;
 	left: 15vw;
-
-
 }
 
 .button:hover{
@@ -36,7 +34,7 @@ body {
   	line-height: 20px ;
   	font-weight: ;
   	position: relative;
-  	bottom: 20vw;
+  	bottom: 35vw;
 
  /* 	background-color: yellow;*/
 
