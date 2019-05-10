@@ -1,9 +1,15 @@
 body {
-	
 	color:black;
 	cursor: help;
+}
 
-	
+.face{
+	width: 70vw;
+	height: auto;
+	position: relative;
+	left: 15vw;
+
+
 }
 
 .button:hover{
@@ -13,16 +19,11 @@ body {
 ::-moz-selection { background: black; }
 ::selection { background: black; }
 
-.help{ cursor: help; 
+.help{ 
+	cursor: help; 
 }
 
-.face{
-	width: 20vw;
-	height: auto;
-	align-content: center;
-	position: relative;
-	left:40vw;
-}
+
 
 
 .advice {
