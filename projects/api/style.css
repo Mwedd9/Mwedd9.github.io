@@ -1,11 +1,20 @@
 body {
 	
 	color:black;
+	cursor: help;
 
+	
 }
+
+.button:hover{
+		cursor: url("smiley.png")auto !important; 
+	 }
 
 ::-moz-selection { background: black; }
 ::selection { background: black; }
+
+.help{ cursor: help; 
+}
 
 .face{
 	width: 20vw;
@@ -13,33 +22,26 @@ body {
 	align-content: center;
 	position: relative;
 	left:40vw;
-
-	
-
 }
 
+
 .advice {
-	border-style: solid  ;
-  	border-width: .2vw;
+	border-style: solid;
+  	border-width: .1vw;
+    border-color: blue;
   	color: black;
   	margin: 40vw;
-  	font-family: serif;
-  	line-height: ;
+  	font-family: 'Gugi', cursive;
+  	line-height: 20px ;
   	font-weight: ;
-  	background-color: yellow;
+  	position: relative;
+  	bottom: 20vw;
+
+ /* 	background-color: yellow;*/
 
 
   }
 
   
   	
-/*
-.p {
 
-	border-style: solid ;
-  	border-width: 2px;
-  	color: blue;
-  	margin: 400px;
-  	width: 100vw;
-
-}*/
