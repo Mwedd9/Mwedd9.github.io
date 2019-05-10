@@ -1,6 +1,7 @@
 body {
 	color:black;
 	cursor: help;
+  background-color: black;
 }
 
 .face{
@@ -25,7 +26,7 @@ body {
 
 
 .advice {
-	border-style: solid;
+	  border-style: solid;
   	border-width: .1vw;
     border-color: blue;
   	color: black;
@@ -35,6 +36,7 @@ body {
   	font-weight: ;
   	position: relative;
   	bottom: 35vw;
+    background-color: white;
 
  /* 	background-color: yellow;*/
 
