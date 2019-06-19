@@ -1,8 +1,9 @@
 body {
-	color:pink;
-	cursor: help;
-  background-color: white;
-  border: solid black;
+	  color: pink;
+    cursor: help;
+    background-color: white;
+    border: 20px solid black;
+    width: 203vw;
 }
 
 
@@ -52,16 +53,18 @@ body {
     height: auto;
     position: absolute;
     left: 15vw;
+    top: 30vw;
 
 
 }
 
 
 .fam{
-    width: 50vw;
+         width: 50vw;
     height: auto;
     position: absolute;
-    left: 73vw;
+    left: 14vw;
+    top: 73vw;
 }
 
 
